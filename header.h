@@ -6,7 +6,7 @@
 /*   By: achraiti <achraiti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 16:49:59 by achraiti          #+#    #+#             */
-/*   Updated: 2024/03/22 20:43:22 by achraiti         ###   ########.fr       */
+/*   Updated: 2024/03/23 17:59:52 by achraiti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ typedef struct  s_list
 	struct s_list	*next;
 }   t_list;
 
+void    del(void *content);
 t_list	*ft_lstnew(void *content);
 t_list  *ft_lstlast(t_list *lst);
 int		ft_lstsize(t_list *lst);
